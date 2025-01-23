@@ -27,7 +27,7 @@ sendBtn.addEventListener('click', function(event){
     
     let inpT = document.querySelector('input'); // seleziono l'input 
     
-    if (inpT.value == 0) {
+    if (inpT.value ==='') {
         alert('first text inside input');
     
     }else{
